@@ -8,4 +8,4 @@
  - Allow user to view their assignment meeting action items
  
 ### Contributors
-This application was made and is maintained by [Jessica Massango] (https://github.com/Jessie116), [Tokelo Foso](https://github.com/slickster23), [Nolly Sasha](https://github.com/nsnko3),[Amukelani Paris](https://github.com/AmukelaniParis) & [Thulani Mpofu](https://github.com/TOLANY-LANNIE)
+This application was made and is maintained by [Jessica Massango](https://github.com/Jessie116), [Tokelo Foso](https://github.com/slickster23), [Nolly Sasha](https://github.com/nsnko3),[Amukelani Paris](https://github.com/AmukelaniParis) & [Thulani Mpofu](https://github.com/TOLANY-LANNIE)
