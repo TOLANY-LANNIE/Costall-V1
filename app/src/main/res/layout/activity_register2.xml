@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="5dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/create_an_account"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="127dp"
+        android:layout_height="103dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/todo"
+        android:tint="@color/colorPrimary"
+        app:srcCompat="@drawable/ic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="10dp"
+        android:text="@string/personal_information"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="147dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/company"
+        android:textColor="@color/colorPrimary" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_company"
+        android:inputType="textPersonName"
+        android:textColor="#3F51B5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="147dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/department"
+        android:textColor="@color/colorPrimary" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_department"
+        android:inputType="textPersonName"
+        android:textColor="#3F51B5" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="147dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/position"
+        android:textColor="@color/colorPrimary" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputPosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_position"
+        android:inputType="textPersonName"
+        android:textColor="#3F51B5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="147dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/salary"
+        android:textColor="@color/colorPrimary" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_salary"
+        android:inputType="number"
+        android:textColor="#3F51B5" />
+
+
+    <Button
+        android:id="@+id/button_continue3"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="140dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:text="@string/btn_link_to_continue"
+        android:textAllCaps="false"
+        android:textColor="#FAF8F8"
+        android:textSize="18sp"
+        app:backgroundTint="@color/colorPrimary"
+        app:iconTint="#3F51B5" />
+
+    <Button
+        android:id="@+id/button_go_to_login"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="42dip"
+        android:text="@string/btn_link_to_login"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

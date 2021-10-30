@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.m.costall.SetupMeeting">
+
+
+    <item
+        android:id="@+id/action_create"
+        android:orderInCategory="102"
+        android:title="Create"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/action_venue"
+        android:orderInCategory="102"
+        android:title="Add Meeting Venue"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_participants"
+        android:orderInCategory="102"
+        android:title="Add Attendees"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_agenda"
+        android:orderInCategory="102"
+        android:title="Add Agenda"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_resource"
+        android:orderInCategory="102"
+        android:title="Add Resources"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cancel"
+        android:orderInCategory="102"
+        android:title="Cancel"
+        app:showAsAction="never" />
+
+</menu>

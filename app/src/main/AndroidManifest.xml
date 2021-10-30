@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.costall">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.example.costall.JoinMeeting" />
+        <activity android:name="com.example.costall.GetMeetingDetails"/>
+        <activity android:name="com.example.costall.MeetingSessionList"/>
+        <activity android:name="com.example.costall.Venue"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.example.costall.ResourceList"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.example.costall.Resource"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.example.costall.AgendaList"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.example.costall.AgendaInit"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.example.costall.Agenda"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.example.costall.ActionList"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.example.costall.ActionItem"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.example.costall.SetupMeetingSession"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.costall.MainActivity" />
+        <activity android:name="com.example.costall.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.costall.EmailVerify" />
+        <activity android:name="com.example.costall.LoginActivity"
+            />
+        <activity android:name="com.example.costall.FinalRegisterActivity"/>
+        <activity android:name="com.example.costall.RegisterActivityCompany" />
+        <activity android:name="com.example.costall.RegisterActivityPersonal" />
+        <activity
+            android:name="com.example.costall.MeetingTimer" />
+
+        <activity
+            android:name="com.example.costall.NewParticipant"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.costall.ViewParticipants"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

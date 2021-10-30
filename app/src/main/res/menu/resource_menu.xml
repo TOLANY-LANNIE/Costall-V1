@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.m.costall.activitities.Resource">
+
+
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="102"
+        android:title="Save"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/action_cancel"
+        android:orderInCategory="102"
+        android:title="Cancel"
+        app:showAsAction="never" />
+
+</menu>

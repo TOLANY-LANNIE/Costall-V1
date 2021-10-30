@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/dell/Desktop/MyApplication5/MyApplication5/app/src/main/res/layout/activity_agenda_list.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/dell/Desktop/MyApplication5/MyApplication5/app/src/main/res/layout/activity_login.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/dell/Desktop/MyApplication5/MyApplication5/app/src/main/res/layout/agenda_list_item.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/dell/Desktop/MyApplication5/MyApplication5/app/src/main/res/layout/agenda_list_toolbar.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/dell/Desktop/MyApplication5/MyApplication5/app/src/main/res/layout/content_agenda.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/dell/Desktop/MyApplication5/MyApplication5/app/src/main/res/layout/content_agenda_list.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/dell/Desktop/MyApplication5/MyApplication5/app/src/main/res/layout/new_participant.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/dell/Desktop/MyApplication5/MyApplication5/app/src/main/res/layout/participant_list_item.xml" value="0.22447916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

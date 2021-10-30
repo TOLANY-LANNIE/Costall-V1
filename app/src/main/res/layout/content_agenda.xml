@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activitities.Agenda"
+    tools:showIn="@layout/activity_agenda">
+
+    <Button
+        android:id="@+id/add_agenda_btn"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:text="Add Agenda"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/conclusion_layout"
+        app:layout_constraintTop_toBottomOf="@+id/conclusion_layout" />
+
+    <Spinner
+        android:id="@+id/participant_spinner"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/agenda_layout"
+        app:layout_constraintTop_toBottomOf="@+id/agenda_layout" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/discussion_layout"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/allocation_time_layout"
+        app:layout_constraintStart_toStartOf="@+id/allocation_time_layout"
+        app:layout_constraintTop_toBottomOf="@+id/allocation_time_layout">>
+
+        <EditText
+            android:id="@+id/discussion_text"
+            android:layout_width="match_parent"
+            android:layout_height="183dp"
+            android:gravity="top"
+            android:hint="Discussion Points"
+            android:inputType="textMultiLine"
+            android:overScrollMode="always"
+            android:padding="15dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/agenda_layout"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/agenda_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/agenda_description" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/allocation_time_layout"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/participant_spinner"
+        app:layout_constraintTop_toBottomOf="@+id/participant_spinner">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/time_allocated_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Allocated Time" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/conclusion_layout"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/discussion_layout"
+        app:layout_constraintTop_toBottomOf="@+id/discussion_layout">
+
+        <EditText
+            android:id="@+id/conclusion_txt"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:gravity="top"
+            android:hint="Agenda Conclusion"
+            android:inputType="textMultiLine"
+            android:overScrollMode="always"
+            android:padding="15dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

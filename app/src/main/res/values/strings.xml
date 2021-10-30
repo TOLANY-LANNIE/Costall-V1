@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Costall App</string>
+    <string name="hint_dob">Date Of Birth (YYYYMMDD)</string>
+    <string name="hint_cellphone">Cellphone Number</string>
+    <string name="hint_first_name">Jessica</string>
+    <string name="hint_surname">Surname</string>
+    <string name="hint_country">Country</string>
+    <string name="hint_region">Region</string>
+    <string name="hint_city">City</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_organisation">Company Name</string>
+    <string name="hint_position">Position</string>
+    <string name="hint_salary">Salary</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_username">Username</string>
+    <string name="login">Login</string>
+    <string name="save">Save</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login.</string>
+    <string name="welcome">Welcome</string>
+    <string name="logout">logout</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="btn_link_to_continue">Continue</string>
+    <string name="massango">Massango</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="cellphone_number">Cellphone Number</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="surname">Surname</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="johannesburg">Johannesburg</string>
+    <string name="Rode">1234 Lady Stanley Ave. Roodeport</string>
+    <string name="region">Region</string>
+    <string name="address">Address</string>
+    <string name="company">Company</string>
+    <string name="gauteng">Gauteng</string>
+    <string name="department">Department</string>
+    <string name="position">Position</string>
+    <string name="salary">Salary</string>
+    <string name="name">Name</string>
+    <string name="todo">TODO</string>
+    <string name="_06382884411">06382884411</string>
+    <string name="_11_06_1996">11/06/1996</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="human_resources">Human Resources</string>
+    <string name="r140_000_00">R140,000.00</string>
+    <string name="manager">Manager</string>
+    <string name="register">Register</string>
+    <string name="title_activity_registration1">RegistrationActivity1</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_registration2">RegistrationActivity2</string>
+    <string name="title_activity_registration3">RegistrationActivity3</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="meetings">Meetings</string>
+    <string name="title_activity_add_meeting">AddMeeting</string>
+
+    <string name="constraintLayout2" type="id">constraintLayout2</string>
+    <string name="button2" type="id">button2</string>
+    <string name="textView" type="id">textView</string>
+    <string name="view" type="id">view</string>
+    <string name="edtTitle" type="id">edtTitle</string>
+    <string name="edtMeetingAgenda" type="id">edtMeetingAgenda</string>
+    <string name="meeting_venues_spinner" type="id">meeting_venues_spinner</string>
+    <string name="btnPickMeetingTime" type="id">btnPickMeetingTime</string>
+    <string name="addNewMeeting" type="id">addNewMeeting</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_department">Department</string>
+    <string name="hint_company">Company</string>
+    <!--<string name="app_name">COSTALL</string>-->
+    <string name="title_home">Home</string>
+    <string name="title_meeting">Meeting</string>
+    <string name="title_action_items">Action Items</string>
+    <string name="title_settings">Settings</string>r
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_moto">Simple meeting cost calculations</string>
+    <string name="application_logo">application logo</string>
+    <string name="join_meeting">JOIN MEETING</string>
+    <string name="schedule">SCHEDULE</string>
+    <string name="title_activity_setup_meeting">Schedule Meeting</string>
+    <string name="title_activity_venue"> Add Venue</string>
+    <string name="title_activity_agenda">Add Agenda</string>
+    <string name="title_activity_resource">Add Resource</string>
+    <string name="title_activity_action_item">Add Action Item</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <!-- <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+-->
+    <!-- <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>-->
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="meeting_title">Meeting Title</string>
+    <string name="meeting_goal">Meeting Goal</string>
+    <string name="meeting_type">Meeting Type</string>
+    <string name="meeting_organizer">Meeting Organizer</string>
+    <string name="date">Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="agenda_description">Agenda Description</string>
+    <string name="add_agenda">Add Agenda</string>
+    <string name="create_meeting">Create Meeting</string>
+    <string name="venue_name">Venue Name</string>
+    <string name="location">Location</string>
+    <string name="cost">Cost</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="date_ddmmyyyy">Date (DDMMYYYY)</string>
+</resources>
