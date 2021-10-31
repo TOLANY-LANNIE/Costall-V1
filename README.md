@@ -8,7 +8,7 @@
  - Allow user to view their assignment meeting action items
 
 ### Upcoming updates
- - The entire code with to converted to Kotlin in the second version on the application
+ - The entire codebase will be converted to Kotlin in the second version on the application
  - Volley library will be replaced with Retrofit
  - The application with implement MVVM architecture in the updated version
  - It will also use ROOM for caching in the mobile device
